@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Colgate', 'Kitkat', 'Lays-Chips', 'Maggie', 'Parle-G', 'Ponds', 'Rin-Soap', 'Sprite']
+
+roboflow:
+  workspace: ibs-fyrz7
+  project: ibs
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ibs-fyrz7/ibs/dataset/2
